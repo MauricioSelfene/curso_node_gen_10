@@ -1,0 +1,25 @@
+{
+  "name": "curso-node",
+  "version": "0.1.0",
+  "description": "Curso de nodejs de scalab",
+  "main": "src/index.js",
+  "scripts": {
+    "service": "node -r dotenv/config src/index.js",
+    "express": "nodemon -r dotenv/config src/expressExample/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MauricioSelfene"
+  },
+  "author": "Mauricio Selfene",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.2",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  }
+}
