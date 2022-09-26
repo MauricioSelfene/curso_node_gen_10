@@ -1,6 +1,7 @@
+const { response } = require('express');
 const express = require('express');
 const morgan = require('morgan');
-const { UserRouter } = require('./routes')
+const { routes: {UserRouter} } = require('./network')
 
 const app = express();
 const PORT = process.env.PORT;
@@ -11,6 +12,8 @@ const PORT = process.env.PORT;
 app.use(express.json())
 app.use(morgan('dev'))
 app.use( UserRouter )
+
+
 
 const fooMiddleware = (req, res, next) => {
     console.log('req.foo', req.foo)
@@ -38,6 +41,15 @@ app.post(
             message: 'Hola mundo desde express',
             foo: req.foo
         })
+})
+
+
+app.use((error, req, res, next) => {
+    response({
+        message: 'This toute does not existes',
+        res,
+        status: 404
+    })
 })
 
 
