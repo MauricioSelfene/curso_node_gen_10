@@ -1,10 +1,16 @@
 const express = require('express');
 const morgan = require('morgan');
+const { UserRouter } = require('./routes')
 
 const app = express();
 const PORT = process.env.PORT;
 
+//Articles: price, images, descripcion, name
+//Users: name, email, articles[]
+
+app.use(express.json())
 app.use(morgan('dev'))
+app.use( UserRouter )
 
 const fooMiddleware = (req, res, next) => {
     console.log('req.foo', req.foo)
