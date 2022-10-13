@@ -47,3 +47,24 @@ npm run express
 
 
 ![]([https://www.reactiongifs.us/salute-cristiano-ronaldo/)
+
+
+## Autor ✒️
+
+* **Andrés Villanueva** - *Trabajo Inicial* -
+
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia ( ISC ) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
+## Expresiones de Gratitud 🎁
+
+* Compañeros del curso de nodejs 📢
+* Profesor Anthony. 
+* Scalab 🤓.
+
+
+
+---
+⌨️ con ❤️ por [MauricioSelfene](https://github.com/MauricioSelfene/) 😊
