@@ -1,6 +1,6 @@
 # Curso de Node.js - Escalab - Generación 10
 
-![](https://tenor.com/view/siuuu-gif-24393397)
+![](http://www.reactiongifs.us/wp-content/uploads/2013/10/nuh_uh_conan_obrien.gif)
 
 
 [![Unit tests](https://github.com/Escalab-Academy/curso_node_gen_10/actions/workflows/unit-test.yml/badge.svg)](https://github.com/Escalab-Academy/curso_node_gen_10/actions/workflows/unit-test.yml)
