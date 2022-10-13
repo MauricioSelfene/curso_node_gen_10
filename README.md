@@ -51,7 +51,7 @@ npm run express
 
 ## Autor ✒️
 
-* **Andrés Villanueva** - *Trabajo Inicial* -
+* **Mauricio** - *Trabajo Inicial* -
 
 
 ## Licencia 📄
